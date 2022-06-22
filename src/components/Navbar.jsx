@@ -1,5 +1,7 @@
 import React from "react";
 
+import Button from "./Button";
+
 export default function Navbar(){
     return(
         <nav className="navbar">
@@ -9,7 +11,7 @@ export default function Navbar(){
                 <a href="#">Cardápio</a>
                 <a href="#">Sobre</a>
             </div>
-            <button className="navbar__button--login">Entrar</button>
+            <Button class="button--login" text="Entrar"/>
         </nav>
     )
 }

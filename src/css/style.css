@@ -24,7 +24,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 10px;
   font: inherit;
   vertical-align: baseline;
 }
@@ -81,7 +81,7 @@ table {
   font-size: 26px;
   color: #DA2535;
 }
-.navbar__button--login {
+.navbar .button--login {
   width: 150px;
   height: 50px;
   border: 2px solid black;
@@ -93,10 +93,101 @@ table {
   cursor: pointer;
   transition: 0.2s;
 }
-.navbar__button--login:hover {
+.navbar .button--login:hover {
   transform: scale(1.1);
   background-color: #DA2535;
   color: #FBFBFB;
+}
+
+main section :last-of-type {
+  margin-bottom: 5rem;
+}
+
+.preparo > img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+section {
+  max-height: 500px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section > .conteudo {
+  width: 40%;
+}
+section > .conteudo h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+section > .conteudo p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 48px 0;
+  line-height: 2rem;
+}
+section > .conteudo button {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  background-color: #DA2535;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #FBFBFB;
+}
+section > .conteudo button:hover {
+  background-color: transparent;
+  border: 2px solid #292929;
+  color: #292929;
+}
+section > .conteudo a {
+  color: #DA2535;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+main > .subtitle {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.cards__popular {
+  width: 300px;
+  height: 400px;
+}
+.cards__popular .card {
+  background-color: #F3F3F3;
+}
+.cards__popular .card img {
+  width: 200px;
+}
+.cards__popular .card__content h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.cards__popular .card__content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.cards__popular .card__content span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
