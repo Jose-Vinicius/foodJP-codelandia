@@ -160,34 +160,85 @@ section > .conteudo a {
 main > .subtitle {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 3rem;
-  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 
-.cards__popular {
-  width: 300px;
-  height: 400px;
+.cards__populares {
+  display: flex;
+  justify-content: space-around;
 }
-.cards__popular .card {
+.cards__populares .card {
   background-color: #F3F3F3;
+  width: 300px;
+  height: 325px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 50px;
 }
-.cards__popular .card img {
+.cards__populares .card img {
   width: 200px;
+  height: 222px;
+  margin-top: -50px;
+  padding-bottom: 20px;
+  filter: drop-shadow(6px 8px 4px rgba(97, 97, 97, 0.7058823529));
 }
-.cards__popular .card__content h3 {
+.cards__populares .card__content h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
 }
-.cards__popular .card__content p {
+.cards__populares .card__content p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
+  color: #292929;
+  padding: 20px 0;
 }
-.cards__popular .card__content span {
+.cards__populares .card__content span {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 1.4rem;
+}
+
+.cards__comentarios {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.cards__comentarios .card {
+  justify-content: left;
+  background-color: #F3F3F3;
+  padding: 30px 20px;
+  width: 450px;
+  border-radius: 15px;
+}
+.cards__comentarios .card img {
+  width: 100px;
+}
+.cards__comentarios .card h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #292929;
+  padding: 10px 0;
+}
+.cards__comentarios .card p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #616161;
+  padding: 0 0 10px 0;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 3rem;
+  border-radius: 20px;
+  border: 2px solid #292929;
+  filter: drop-shadow(6px 6px 5px rgba(97, 97, 97, 0.7725490196));
 }
 
 /*# sourceMappingURL=style.css.map */
