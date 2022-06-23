@@ -1,0 +1,40 @@
+.location{
+    width: 800px;
+    height: 40px;
+    margin:0 auto 20px;
+
+    & input{
+        width: 80%;
+        height: 35px;
+        border: 1px solid $black;
+        outline: none;
+        background: url('../../public/imagens/icons/map-pin.png');
+        background-size: 25px;
+        padding-left: 35px;
+        background-repeat: no-repeat;
+        background-position: 5px 5px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    & > .button--location{
+        width: 15%;
+        height: 40px;
+        border: 1px solid $red;
+        background-color: $red;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+        color: $white;
+        transition: .2s;
+
+        &:hover{
+            background-color: rgb(85, 0, 0);
+            border: 1px solid rgb(85,0,0);
+            font-weight: 600;
+
+        }
+    }
+}
