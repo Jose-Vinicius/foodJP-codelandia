@@ -125,6 +125,39 @@ table {
   padding: 0 0 10px 0;
 }
 
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+footer img {
+  width: 100px;
+  height: 25px;
+}
+footer .card {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  text-align: left;
+}
+footer .card h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "MontSerrat", sans-serif;
+  color: #292929;
+}
+footer .card a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #616161;
+}
+footer .hidden {
+  display: none;
+}
+
 main section :last-of-type {
   margin-bottom: 5rem;
 }
@@ -195,7 +228,7 @@ iframe {
 .location {
   width: 800px;
   height: 40px;
-  margin: 0 auto 20px;
+  margin: 0 auto 50px;
 }
 .location input {
   width: 80%;

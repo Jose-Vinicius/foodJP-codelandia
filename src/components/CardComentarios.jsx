@@ -1,11 +1,13 @@
 import React from 'react';
 
 export default function CardComentarios(props){
-    const rate = props.rate * 19
+    let rate
 
+    props.rate > 5 ? rate = 5 : rate = props.rate
+    
     const styleStars = {
         backgroundImage: `url(${'../../public/imagens/outros/star.png'})`,
-        width: `${rate}px`,
+        width: `${rate * 19}px`,
         color: 'transparent'
     }
     return(
