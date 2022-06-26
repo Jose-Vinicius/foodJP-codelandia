@@ -3,7 +3,7 @@ import React from 'react';
 import Button from './Button';
 import CardComentarios from './CardComentarios';
 import CardPopular from './CardPopular';
-import Footer from './Footer';
+
 import Iframe from './Iframe';
 
 export default function Content(){
@@ -16,10 +16,10 @@ export default function Content(){
                         <p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3), vegetais, massas e ingredientes frescos.</p>
                         <Button class="button--cardapio" text="Cardápio"/>
                     </div>
-                    <img src="../../public/imagens/pratos/sushi.png" alt="Mão com um hashi segurando um sushi" />
+                    <img src="/imagens/pratos/sushi.png" alt="Mão com um hashi segurando um sushi" />
                 </section>
                 <section className='preparo'>
-                    <img src="../../public/imagens/pratos/img_prato.png" alt="Mão segurando prato com empanado" />
+                    <img src="/imagens/pratos/img_prato.png" alt="Mão segurando prato com empanado" />
                     <div className="conteudo">
                         <h2>Feita de forma tradicional</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>

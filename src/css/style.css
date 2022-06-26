@@ -316,11 +316,11 @@ iframe {
   margin: 0 auto 50px;
 }
 .location input {
-  width: 80%;
+  width: 90%;
   height: 35px;
   border: 1px solid #292929;
   outline: none;
-  background: url("../../public/imagens/icons/map-pin.png");
+  background: url("/imagens/icons/map-pin.png");
   background-size: 25px;
   padding-left: 35px;
   background-repeat: no-repeat;
@@ -349,7 +349,7 @@ iframe {
 
 @media (max-width: 767.98px) {
   .location > .button--location {
-    background-image: url("../../../public/imagens/icons/search.png");
+    background-image: url("/imagens/icons/search.png");
     background-repeat: no-repeat;
     background-position: center;
     color: transparent;

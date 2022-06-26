@@ -6,11 +6,11 @@
     margin:0 auto 50px;
 
     & input{
-        width: 80%;
+        width: 90%;
         height: 35px;
         border: 1px solid $black;
         outline: none;
-        background: url('../../public/imagens/icons/map-pin.png');
+        background: url('/imagens/icons/map-pin.png');
         background-size: 25px;
         padding-left: 35px;
         background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 @include for-phone-only{
     .location{
         & > .button--location{
-            background-image: url('../../../public/imagens/icons/search.png');
+            background-image: url('/imagens/icons/search.png');
             background-repeat: no-repeat;
             background-position: center;
             color: transparent;
