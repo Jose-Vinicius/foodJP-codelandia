@@ -1,66 +1,120 @@
-main 
-    section :last-of-type{
-        margin-bottom: 5rem;
+main{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+section :last-of-type{
+margin-bottom: 2rem;
+}
+
+.preparo > img{
+width: 500px;
+border-radius: 10px;
+}
+
+section {
+max-height: 500px;
+margin-top: 100px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+
+& > .conteudo {
+    width: 40%;
+
+    & h2{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
     }
 
-    .preparo > img{
-        width: 500px;
+    & p{
+        font-family: "Inter", sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 0 0 48px 0;
+        line-height: 2rem;
+    }
+
+    & button{
+        width: 250px;
+        height: 50px;
         border-radius: 10px;
+        border: none;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        background-color: $red;
+        cursor: pointer;
+        transition: .3s;
+        color: $white;
+
+        &:hover{
+            background-color: transparent;
+            border: 2px solid $black;
+            color: $black;
+        }
     }
 
-    section {
-        max-height: 500px;
-        margin-top: 100px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
+    & a {
+        color:$red;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
+}
 
-        & > .conteudo {
-            width: 40%;
+    
 
-            & h2{
-                font-family: "Montserrat", sans-serif;
-                font-weight: 600;
-                font-size: 1.6rem;
+@include for-phone-only{
+    .preparo, .intro{
+        & > img{
+            display: none;
+        }
+    }
+    .preparo{
+        & .conteudo{
+            h2:last-of-type{
+                white-space: normal;
+                text-align: center;
             }
-
             & p{
-                font-family: "Inter", sans-serif;
-                font-size: 1.2rem;
-                font-weight: 400;
-                margin: 0 0 48px 0;
-                line-height: 2rem;
+                text-align: center;
             }
+        }
+    } 
 
-            & button{
-                width: 250px;
-                height: 50px;
-                border-radius: 10px;
-                border: none;
-                font-family: "Inter", sans-serif;
-                font-weight: 600;
-                font-size: 24px;
-                background-color: $red;
-                cursor: pointer;
-                transition: .3s;
-                color: $white;
+    section{
+        width: 90vw;
+        margin: 0 ;
+        display: flex;
+        justify-content: center;
+
         
-                &:hover{
-                    background-color: transparent;
-                    border: 2px solid $black;
-                    color: $black;
-                }
-            }
 
-            & a {
-                color:$red;
-                font-family: "Inter", sans-serif;
-                font-weight: 500;
+        & > .conteudo{
+            width: 90vw;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            & > h2{
+                font-size: 2.4rem;
+                white-space: nowrap;
+            }
+            & button{
+                width: 90vw;
+            }
+            & > a{
                 font-size: 1rem;
             }
         }
+    }
+    
+    
 }
 
 

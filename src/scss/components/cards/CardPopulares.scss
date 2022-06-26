@@ -16,7 +16,6 @@
             margin-top: -50px;
             padding-bottom: 20px;
             filter:drop-shadow(6px 8px 4px #616161b4);
-            
         }
 
         &__content{
@@ -40,6 +39,19 @@
                 font-weight: 500;
                 font-size: 1.4rem;
             }
+        }
+    }
+}
+
+@include for-phone-only{
+    .cards__populares{
+        flex-direction: column;
+        width: 90vw;
+        
+
+        .card{
+            margin: 0 0 5rem;
+            width: 100%;
         }
     }
 }

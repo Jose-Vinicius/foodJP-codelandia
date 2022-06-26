@@ -1,5 +1,7 @@
 .location{
-    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90vw;
     height: 40px;
     margin:0 auto 50px;
 
@@ -37,4 +39,16 @@
 
         }
     }
+}
+
+@include for-phone-only{
+    .location{
+        & > .button--location{
+            background-image: url('../../../public/imagens/icons/search.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            color: transparent;
+        }
+    }
+    
 }
