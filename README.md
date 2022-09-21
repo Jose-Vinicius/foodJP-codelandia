@@ -17,7 +17,7 @@ Com base no layout proposto, foi desenvolvido uma página de apresentação resp
 ## 🚀 Resultado: 
 <img src="./public/layout/layoutFinal/foodJP.png">
 <img src="./public/layout/layoutFinal/foodJPMobile.png">
-<a href="https://food-jp-navy.vercel.app/">Clique aqui para acessar o site</a> 
+<a href="https://food-jp-codelandia.vercel.app/">Clique aqui para acessar o site</a> 
 
 
 ## ⚒️ Tecnologias utilizadas:
